@@ -7,9 +7,9 @@ class SmartPlayer
 	 	if guess == 0
 	 		@choice = rand(1..max)
 	 	elsif guess > answer
-	 		@choice = rand(min..guess)
+	 		@choice = rand(min+1..guess)
 	 	elsif guess < answer
-	 		@choice = rand(guess..max)
+	 		@choice = rand(guess..max-1)
 	 	end
 	end
 end
