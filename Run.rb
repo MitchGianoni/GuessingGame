@@ -8,7 +8,7 @@ require "./smart"
 
 #binding.pry
 
-game = Game.new(0, 100, Human.new, RandomPlayer.new, SmartPlayer.new)
+game = Game.new(1, 100, Human.new, RandomPlayer.new, SmartPlayer.new)
 game.play
 
 #binding.pry

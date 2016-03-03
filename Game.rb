@@ -4,8 +4,8 @@ class Game
   def initialize(min, max, player, computer, smartcomputer)
     @min = min
     @max = max
-    @player = player
-    @computer = computer
+    #@player = player
+    #@computer = computer
     @smartcomputer = smartcomputer
   
   end
